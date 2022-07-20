@@ -25,10 +25,6 @@ nav {
   text-align: center;
 }
 
-.hidden {
-  display: none;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -106,4 +102,8 @@ input:focus {
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+
+.hidden {
+  display: none;
 }

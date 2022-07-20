@@ -26,9 +26,9 @@ function paintGreeting(username) {
   const hours = date.getHours();
   const hourText = Message[Math.floor(hours / 6)];
   greetingText.innerText = `${hourText} ${username}`;
-  greeting.classList.remove(HIDDEN_CLASS_NAME);
 }
 if (savedUserName === null) {
+  console.log(greeting);
   loginForm.classList.remove(HIDDEN_CLASS_NAME);
   loginForm.addEventListener('submit', onLoginSubmit);
 } else {
